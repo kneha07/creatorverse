@@ -1,0 +1,49 @@
+.creator-card {
+  display: block;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: white;
+}
+
+.creator-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.creator-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.creator-info {
+  padding: 16px;
+}
+
+.creator-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.description {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.creator-link {
+  display: inline-block;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.creator-link:hover {
+  text-decoration: underline;
+}
