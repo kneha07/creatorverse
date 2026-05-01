@@ -1,142 +1,54 @@
-# Prework: Advanced Web Development (WEB103)
+# WEB103 Prework - *Creatorverse*
 
-Welcome to the CodePath WEB103 Prework!
+Submitted by: **Neha Kumari**
 
-In WEB103, you will learn how to build your own full stack apps from scratch. But first, it's important that you know how to build a frontend that can interact with an API and supports CRUD operations.
+About this web app: **A content creator management app where users can view, add, edit, and delete their favorite content creators. Each creator has a name, URL, description, and optional image, displayed as cards on the homepage.**
 
-Introducing . . . 🥁
-
-Creatorverse
-A person's top content creators can say a lot about them. Do they prefer lockpicking videos 🔒, casual art streams 🖼️, or hustle-culture TikTokers 📱?
-
-View an exemplar of the project here!
-
-Screenshot
-A simple version of the app with all the required features implemented:
-
-Screenshot of app with core features implemented
-Your mission 🧑‍🚀 is to build a frontend that supports CRUD (create, read, update, and delete) operations on your favorite content creators. Your content creators can be Twitch streamers, YouTube channels, Instagram personalities, TikTok accounts, or similar. Heck, they can even be Mastodon microbloggers.
-
-The purpose of your app is to share at least five creators you think are worth following and give yourself the ability to create, update, and delete creators. Each Creator should have:
-
-a name
-a url (the link to their channel or page)
-a description
-(optional) an imageURL that links to a picture of the creator or some of their content
-You must use React to create your app, and you may optionally use PicoCSS to style HTML elements.
-
-Let's get started! 🚀
+Time spent: **👉🏿 X** hours
 
 ## Required Features
-- [x] Use a logical component structure in React to create the frontend of the app
-- [x] Display at least five content creators on the homepage of the app
-- [x] Each content creator item includes:
-  - [x] their name
-  - [x] a link to their channel or page
-  - [x] a short description of their content
-- [x] API calls use the async/await design pattern via Axios or fetch
-- [x] Clicking on a content creator item takes the user to their details page, which includes their name, url, and description
-- [x] Each content creator has their own unique URL
-- [x] The user can edit a content creator to change their name, url, or description
-- [x] The user can delete a content creator
-- [x] The user can add a new content creator by entering a name, url, and description
-- [x] The new content creator then appears in the displayed list
 
-## Stretch Features
-- [ ] Use Picocss to style HTML elements
-- [x] Display content creator items in a creative format, like cards instead of a list
-- [x] Show an image of each content creator on their content creator card
+The following **required** functionality is completed:
 
-## Getting Started
+<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-- Supabase account
+The following **optional** features are implemented:
 
-### Installation
+- [ ] Picocss is used to style HTML elements
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
 
-1. Clone the repository:
-```bash
-git clone https://github.com/kneha07/creatorverse.git
-cd creatorverse
-```
+The following **additional** features are implemented:
 
-2. Install dependencies:
-```bash
-npm install
-```
+* [ ] List anything else that you added to improve the site's functionality!
 
-3. Set up environment variables:
-Create a `.env.local` file in the root directory with your Supabase credentials:
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
+## Video Walkthrough
 
-4. Start the development server:
-```bash
-npm run dev
-```
+Here's a walkthrough of implemented required features:
 
-5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+[![Video Walkthrough](https://cdn.loom.com/sessions/thumbnails/438736474ea7421b8ff2b403d0a83264-with-play.gif)](https://www.loom.com/share/438736474ea7421b8ff2b403d0a83264)
 
-### Building for Production
+GIF created with [Loom](https://www.loom.com)
 
-```bash
-npm run build
-```
+## Notes
 
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── CreatorCard.jsx      # Individual creator card component
-│   └── CreatorCard.css
-├── pages/
-│   ├── ShowCreators.jsx     # Homepage displaying all creators
-│   ├── ViewCreator.jsx      # Single creator details page
-│   ├── AddCreator.jsx       # Form to add new creator
-│   ├── EditCreator.jsx      # Form to edit creator
-│   └── *.css files
-├── App.jsx                  # Main app with routing
-├── main.jsx                 # App entry point
-└── client.js                # Supabase client configuration
-```
-
-## Technologies Used
-
-- **Frontend**: React 19, React Router 7
-- **Backend**: Supabase (PostgreSQL database)
-- **Styling**: Custom CSS
-- **Build Tool**: Vite
-- **Deployment**: Ready for deployment to any static hosting service
-
-## Features Implemented
-
-### Core CRUD Operations
-- **Create**: Add new content creators with name, URL, description, and optional image
-- **Read**: View all creators on homepage, view individual creator details
-- **Update**: Edit existing creator information
-- **Delete**: Remove creators from the database
-
-### User Experience
-- Responsive design that works on desktop and mobile
-- Intuitive navigation between pages
-- Form validation for required fields
-- Loading states and error handling
-- Unique URLs for each creator page
-
-## Submission
-
-This project was created as part of the CodePath WEB103 prework assignment. It demonstrates proficiency in:
-- React component architecture
-- API integration with Supabase
-- CRUD operations
-- Routing with React Router
-- Responsive web design
+Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
-This project is for educational purposes as part of the CodePath WEB103 course.
+Copyright [2024] [Neha Kumari]
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+> http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
