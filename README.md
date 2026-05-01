@@ -4,7 +4,7 @@ Submitted by: **Neha Kumari**
 
 About this web app: **A content creator management app where users can view, add, edit, and delete their favorite content creators. Each creator has a name, URL, description, and optional image, displayed as cards on the homepage.**
 
-Time spent: **👉🏿 X** hours
+Time spent: **4** hours
 
 ## Required Features
 
@@ -41,7 +41,7 @@ GIF created with [Loom](https://www.loom.com)
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+One challenge was setting up the Supabase client and managing environment variables correctly with Vite (using `VITE_` prefixed keys). Connecting async/await API calls with React state — especially handling loading and error states across Create, Read, Update, and Delete flows — also required careful coordination. Routing with React Router to give each creator a unique URL (`/creator/:id`) was a key part of the architecture.
 
 ## License
 
