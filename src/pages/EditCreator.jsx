@@ -57,9 +57,10 @@ function EditCreator() {
 
     try {
       setSubmitting(true);
+      const { name, url, description, imageURL } = formData;
       const { error: updateError } = await supabase
         .from('creators')
-        .update(formData)
+        .update({ name, url, description, imageURL })
         .eq('id', id);
       if (updateError) throw updateError;
       navigate(`/creator/${id}`);
