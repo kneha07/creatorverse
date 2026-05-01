@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[![Video Walkthrough](https://cdn.loom.com/sessions/thumbnails/438736474ea7421b8ff2b403d0a83264-with-play.gif)](https://www.loom.com/share/438736474ea7421b8ff2b403d0a83264)
+[Video Walkthrough](https://www.loom.com/share/438736474ea7421b8ff2b403d0a83264)
 
 GIF created with [Loom](https://www.loom.com)
 
