@@ -1,4 +1,4 @@
-# WEB103 Prework - *Creatorverse*
+*Creatorverse*
 
 Submitted by: **Neha Kumari**
 
